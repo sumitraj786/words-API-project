@@ -2,9 +2,11 @@
 
 **Completed both the requirements**
 INPUT for word input tab:-
-example
-urban
-nature
+
+
+example,
+urban,
+nature,
 city
 
 Requirement 1: Real-time Text Analyzer Build a text analyzer that calculates the following metrics in real-time as the user types a paragraph: 
