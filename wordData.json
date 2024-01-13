@@ -1,0 +1,34 @@
+{
+  "definitions": [
+    {
+      "word": "example",
+      "definition": "a representative form or pattern",
+      "partOfSpeech": "noun",
+      "synonyms": ["model", "pattern"],
+      "antonyms": ["atypical", "unusual"],
+      "example": ["I profited from his example"]
+    },
+    {
+      "word": "urban",
+      "definition": "in, relating to, or characteristics of a town or city,the urban population",
+      "partOfSpeech": "Noun",
+      "synonyms": ["Town"],
+      "antonyms": ["rural"],
+      "example": ["Many Americans were leaving the farm for the promise of urban life"]
+    },
+    {
+      "word": "nature",
+      "definition": "the phenomena of the physical world collectively, including plants, animals, the landscape, and other features and products of the earth",
+      "partOfSpeech": "noun",
+      "synonyms": ["environment", "creation"],
+      "antonyms": ["artifice", "synthetic"]
+    },
+    {
+      "word": "city",
+      "definition": "a large town",
+      "partOfSpeech": "noun",
+      "synonyms": ["metropolis", "urban center"],
+      "antonyms": ["village", "hamlet"]
+    }
+  ]
+}

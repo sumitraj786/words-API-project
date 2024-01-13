@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Text Analyzer</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">TEXT ANALYZER</h1>
+
+        <p class="subtitle">
+            Text Analyzer is a simple free online tool for SEO web content analysis that helps you 
+            find the most frequent phrases and words, number of characters, words, sentences, and 
+            paragraphs, and estimated read and speak time of your content.                        
+        </p>
+
+        <div class="bottom-right-text">
+            BY SUMIT RAJ
+        </div>
+        <div class="tabs">
+            <button id="wordTabBtn" onclick="openTab('wordTab')">Word Input</button>
+            <button id="paragraphTabBtn" onclick="openTab('paragraphTab')">Paragraph</button>
+        </div>        
+
+        <div id="wordTab" class="tab-content">
+            <label for="wordInput">Enter a word:</label>
+            <input type="text" id="wordInput" placeholder="Type a word..." oninput="analyzeRealTimeWord()">
+            <button onclick="analyzeWord()">Analyze Word</button>
+            
+            <div id="wordDetails">
+                <table class="result-table">
+                    <!-- Word details table -->
+                </table>
+            </div>
+
+            <div id="wordCount">Word: </div>
+            <div id="characterCount">Characters: </div>
+        </div>
+
+        <div id="paragraphTab" class="tab-content">
+            <label for="paragraphInput">Enter a paragraph:</label>
+            <textarea id="paragraphInput" placeholder="Type your paragraph here..." oninput="analyzeRealTimeParagraph()"></textarea>
+            
+            <div id="paragraphMetrics">
+                <table class="result-table">
+                    <!-- Paragraph metrics table -->
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

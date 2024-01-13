@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: left; 
+    font-size: 50px;
+    margin-top: 0px;
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center; 
+    margin-bottom: 10px; 
+    margin-left: 0;
+    color: #383a3b;
+}
+.tabs {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background-color: #b8c5ce;
+    cursor: pointer;
+}
+
+button.active {
+    background-color: #1daeec; /* highlight color for the active tab */
+}
+
+.tab-content {
+    display: none;
+}
+
+textarea, button {
+    margin-bottom: 10px;
+}
+
+#wordInput {
+    width: 1100px;
+    padding: 8px; 
+}
+#wordDetails table,
+#paragraphMetrics table {
+    width: 100%;
+    height: 20;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+#paragraphInput {
+    height: 130px; 
+    width: 100%; 
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+#wordDetails th, #wordDetails td,
+#paragraphMetrics th, #paragraphMetrics td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#wordDetails th, #paragraphMetrics th {
+    background-color: #f2f2f2;
+}
+
+#wordDetails, #paragraphMetrics {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.bottom-right-text {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    color: #595a5c;
+    font-size: 25px; 
+}
